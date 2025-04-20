@@ -7,7 +7,7 @@ The dataset used was the IDD-20K dataset, released as part of the AutoNUE Challe
 IDD-20K Part I
 IDD-20K Part II
 # Implementation Details
-1. Setting Up the Environment
+## 1. Setting Up the Environment
 We used Windows 11 with Python 3.10.2 to build the project.
 After activating the environment, we installed the necessary Python libraries:
 •	numpy
