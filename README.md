@@ -5,5 +5,4 @@ The primary objective of the project is to implement semantic segmentation in ro
 The dataset used was the IDD-20K dataset, released as part of the AutoNUE Challenge 2021. It contains over 20,000 images of Indian road scenes, annotated at three levels of hierarchy. For this project, Level 3 annotations (26 classes) were used.
 
 IDD-20K Part I
-
 IDD-20K Part II
