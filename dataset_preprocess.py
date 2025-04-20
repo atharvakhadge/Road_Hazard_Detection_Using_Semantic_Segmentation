@@ -41,11 +41,11 @@ def preprocess_masks(mask_dir, output_dir):
                 save_path = os.path.join(output_dir, file.replace(".png", ".npy"))
                 np.save(save_path, mask)
 
-image_dir = "C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/Dataset/leftImg8bit/train"  # Images ka path
-mask_dir = "C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/Dataset/gtFine/train"  # Masks ka path
+image_dir = "C:/Users/atharva/Document/IDD-RoadSceneSegmentation/Dataset/leftImg8bit/train"  # Images ka path
+mask_dir = "C:/Users/atharva/Document/IDD-RoadSceneSegmentation/Dataset/gtFine/train"  # Masks ka path
 
-image_output_dir = "C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/preprocessed_images/train"
-mask_output_dir = "C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/preprocessed_masks/train"
+image_output_dir = "C:/Users/atharva/Document/IDD-RoadSceneSegmentation/preprocessed_images/train"
+mask_output_dir = "C:/Users/atharva/Document/IDD-RoadSceneSegmentation/preprocessed_masks/train"
 
 
 
