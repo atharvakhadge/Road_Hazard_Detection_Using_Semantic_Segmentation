@@ -99,5 +99,14 @@ This helped us:
 •	Understand its performance in difficult scenes like dark lighting or heavy traffic.
 # Result
 
-![Uploading Screenshot 2025-04-20 194100.png…]()
+![Screenshot 2025-04-20 195104](https://github.com/user-attachments/assets/eaa7b3dc-7a74-492e-99b1-c5f86af84d49)
+![Screenshot 2025-04-20 194248](https://github.com/user-attachments/assets/537877f1-9231-44e2-a8dc-3ca5e35cf374)
+![Screenshot 2025-04-20 194100](https://github.com/user-attachments/assets/9fe27951-2baf-4b7a-8926-0d130d42f4d0)
+![Screenshot 2025-04-20 142315](https://github.com/user-attachments/assets/14b1bf93-4628-4719-9f13-8e45f6a0e871)
+![Screenshot 2025-04-20 142656](https://github.com/user-attachments/assets/f25d27a7-d199-49b5-95bd-52cb9ce69925)
+
+
+We applied DeepLabV3+ to do semantic segmentation on road scenes, correctly labeling every pixel into major categories such as roads, cars, and pedestrians. The model had good results, and the entire pipeline from data preparation to prediction was good. This project demonstrates how semantic segmentation can enable safer, smarter AI-powered transportation.
+
+
 
