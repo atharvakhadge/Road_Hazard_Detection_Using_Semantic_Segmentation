@@ -6,6 +6,8 @@ The dataset used was the IDD-20K dataset, released as part of the AutoNUE Challe
 
 IDD-20K Part I
 IDD-20K Part II
+
+Download the dataset from: https://idd.insaan.iiit.ac.in/
 # Implementation Details
 ## 1. Setting Up the Environment
 We used Windows 11 with Python 3.10.2 to build the project.
