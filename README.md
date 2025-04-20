@@ -9,12 +9,26 @@ IDD-20K Part II
 # Implementation Details
 ## 1. Setting Up the Environment
 We used Windows 11 with Python 3.10.2 to build the project.
+
+
 After activating the environment, we installed the necessary Python libraries:
+
+
 •	numpy
+
+
 •	pandas==1.2.1
+
+
 •	tqdm
+
+
 •	Pillow
+
+
 •	scipy==1.1.0
+
+
 •	imageio
 ## 2. Preparing the Dataset
 We used the IDD-20K dataset, which is part of the AutoNUE Challenge 2021. It contains more than 20,000 images of Indian road scenes.
