@@ -17,8 +17,8 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Ensure paths for the train images and masks
-X_train = np.load('C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/preprocessed_images/train/X_train.npy')  # Training images
-y_train = np.load('C:/Users/anush/Desktop/IDD-RoadSceneSegmentation/preprocessed_masks/train/y_train.npy')  # Training masks
+X_train = np.load('C:/Users/atharva/Document/IDD-RoadSceneSegmentation/preprocessed_images/train/X_train.npy')  # Training images
+y_train = np.load('C:/Users/atharva/Document/IDD-RoadSceneSegmentation/preprocessed_masks/train/y_train.npy')  # Training masks
 
 # ModelCheckpoint se best model ko save karna
 checkpoint = ModelCheckpoint("best_deeplab_model.h5", save_best_only=True, monitor='val_loss', mode='min')
