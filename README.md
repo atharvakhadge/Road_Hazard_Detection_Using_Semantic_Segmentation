@@ -18,9 +18,7 @@ We used Windows 11 with Python 3.10.2 to build the project.
 We began the implementation on Google Colab because it's an excellent cloud environment for running deep learning models. We enabled GPU acceleration to speed up the training process. In order to keep things organized and ensure that we didn't lose work between sessions, we also mounted Google Drive. There, we placed the dataset and model checkpoints so that if necessary, we could pick up where we left off.
 
 ## 2. Preparing the Dataset
-We used the IDD-20K dataset, which is part of the AutoNUE Challenge 2021. It contains more than 20,000 images of Indian road scenes.
-We worked with Level-3 annotations, which provide detailed labeling for 26 different classes like road, car, pedestrian, etc.
-We combined Part I and Part II of the dataset into a single folder for easier access.
+We employed the IDD Segmentation Part 2 dataset on Kaggle that contains urban road images and corresponding grayscale segmentation masks. Every pixel in the mask corresponds to a particular object such as a road, car, person etc. . We structured everything into folders and utilized a custom data loader to ensure that every image was paired with the correct mask.
 ## 3. Creating Segmentation Labels
 The dataset comes with annotations in JSON format, so we needed to convert them into segmentation mask images (PNG format).
 
