@@ -37,35 +37,26 @@ To suit the IDD dataset, which includes 26 semantic classes , the final classifi
 ## 5. Training the Model
 Split data into training and validation sets.
 Applied transformations: resizing, normalization, and tensor conversion
+
 ● Loss Function: CrossEntropyLoss with ignore_index=255
 
 ● Optimizer: Adam, learning rate = 0.0001
 
 ● Platform: Trained on Google Colab GPU
 
-•	Epochs: 2
+● Epochs: 2
 ## 6. Prediction and Evaluation
 After training, we used the model to predict segmentation maps for the validation images.
 
+The evaluation was conducted on the validation set with all predictions and ground truths resized to 1280×720 resolution , in line with the AutoNUE benchmark format.
 
-•	Each output was a PNG mask showing which pixels belong to which class.
+● Pixel Accuracy
 
+● Mean IoU These metrics indicate that the model was able to reliably distinguish between various elements of the road scene, such as vehicles, roads, pedestrians, and buildings, even in unstructured and cluttered environments.
+## 7. Visualization
+Overlaid predicted masks on original images using OpenCV
 
-•	We resized both predicted and ground truth masks to 1280x720 using nearest neighbor interpolation.
-
-
-•	To check how well the model worked, we used the mean Intersection over Union metric.
-## 7. Visualization and Results
-To visualize the results, we used OpenCV to overlay the predicted masks on the original images.
-
-
-This helped us:
-
-
-•	See how accurately the model recognized different objects
-
-
-•	Understand its performance in difficult scenes like dark lighting or heavy traffic.
+Helped visually assess model accuracy in complex scenes with poor lighting or heavy traffic
 # Result and conclusion
 
 ![Screenshot 2025-04-20 195104](https://github.com/user-attachments/assets/eaa7b3dc-7a74-492e-99b1-c5f86af84d49)
