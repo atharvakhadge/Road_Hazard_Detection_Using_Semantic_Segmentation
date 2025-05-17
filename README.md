@@ -13,7 +13,7 @@ Structure:
 Images are divided into train, val, and test folders and corresponding segmentation masks are provided for training and validation.
 
 Source: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentation-part-2
-Implementation
+
 # Implementation Details
 ## 1. Setting Up the Environment
 We used Windows 11 with Python 3.10.2 to build the project.
