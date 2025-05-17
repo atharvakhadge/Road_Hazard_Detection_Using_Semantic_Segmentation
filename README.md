@@ -2,12 +2,18 @@
 # Project Objective
 The primary objective of the project is to implement semantic segmentation in road scenarios based on the IDD dataset and DeepLabV3+. The project entails investigating the structure of the dataset, particularly the 26 fine-grained level-3 classes for Indian roads. Official AutoNUE tools were employed to generate precise pixel-level masks for training. The DeepLabV3+ model was trained to manage complicated scenes with object boundary preservation. We assessed its performance by the mIoU method at 720p resolution based on AutoNUE standards. The findings assist in evaluating how effectively the model performs in unstructured traffic and indicate its capability to enhance autonomous driving and smart transport systems.
 # Dataset
-The dataset used was the IDD-20K dataset, released as part of the AutoNUE Challenge 2021. It contains over 20,000 images of Indian road scenes, annotated at three levels of hierarchy. For this project, Level 3 annotations (26 classes) were used.
+Name: Indian Driving Dataset - Segmentation Part 2
 
-IDD-20K Part I
-IDD-20K Part II
+Type: Road scene dataset for semantic segmentation
 
-Download the dataset from: https://idd.insaan.iiit.ac.in/
+Size: 5.79 GB
+
+Structure:
+
+Images are divided into train, val, and test folders and corresponding segmentation masks are provided for training and validation.
+
+Source: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentation-part-2
+Implementation
 # Implementation Details
 ## 1. Setting Up the Environment
 We used Windows 11 with Python 3.10.2 to build the project.
