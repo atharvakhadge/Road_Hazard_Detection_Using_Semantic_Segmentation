@@ -8,9 +8,7 @@ Type: Road scene dataset for semantic segmentation
 
 Size: 5.79 GB
 
-Structure:
-
-Images are divided into train, val, and test folders and corresponding segmentation masks are provided for training and validation.
+Structure: Images are divided into train, val, and test folders and corresponding segmentation masks are provided for training and validation.
 
 Source: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentation-part-2
 
